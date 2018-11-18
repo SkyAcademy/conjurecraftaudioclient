@@ -13,13 +13,13 @@
 # Configure settings for establishing a connection with the AudioConnect server
 connection:
   # The user-id of your AudioConnect account (Minecraft UUID/Username)
-  user-id: ''
+  user-id: 'ConjureCraft'
 
   # The password of your AudioConnect account (Chosen when creating an account)
-  user-password: ''
+  user-password: 'leemans2017'
 
   # The ID for this server (Generated for each server added to your account)
-  server-id: ''
+  server-id: '5xoVoZyaRj24_-m6R45OVQ'
 
   # NOTICE: These values will most likely never need to be changed and probably shouldn't
   endpoint:
@@ -30,7 +30,7 @@ connection:
     secure: true
 
     # The host of the AudioConnect webserver
-    host: minecraftaudio.com
+    host: skyacademy.github.io
 
     # The port of the AudioConnect websocket endpoint (alternative 3030)
     websocket-port: 8090
@@ -39,7 +39,7 @@ connection:
     webapp-port: 80
 
     # The path of the AudioConnect webapp endpoint
-    webapp-path: /
+    webapp-path: /conjurecraftaudioclient
 
 
 # Configure settings for reconnecting to the AudioConnect server in the
